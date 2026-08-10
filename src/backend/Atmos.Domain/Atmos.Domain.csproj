@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Atmos.Domain</RootNamespace>
+    <AssemblyName>Atmos.Domain</AssemblyName>
+  </PropertyGroup>
+</Project>

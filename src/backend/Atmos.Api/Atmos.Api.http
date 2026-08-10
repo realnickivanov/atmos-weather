@@ -1,0 +1,14 @@
+@Atmos_Api_HostAddress = http://localhost:8080
+
+GET {{Atmos_Api_HostAddress}}/api/weather
+Accept: application/json
+
+###
+
+GET {{Atmos_Api_HostAddress}}/health
+Accept: application/json
+
+###
+
+GET {{Atmos_Api_HostAddress}}/openapi/v1.json
+Accept: application/json

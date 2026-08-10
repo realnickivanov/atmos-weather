@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <OutputType>Exe</OutputType>
+    <UseMicrosoftTestingPlatformRunner>true</UseMicrosoftTestingPlatformRunner>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../src/backend/Atmos.Api/Atmos.Api.csproj" />
+    <ProjectReference Include="../../../src/backend/Atmos.Application/Atmos.Application.csproj" />
+    <ProjectReference Include="../../../src/backend/Atmos.Domain/Atmos.Domain.csproj" />
+    <ProjectReference Include="../../../src/backend/Atmos.Infrastructure/Atmos.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Testing.Platform" />
+    <PackageReference Include="xunit.v3.mtp-v2" />
+    <PackageReference Include="coverlet.MTP" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

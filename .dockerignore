@@ -1,0 +1,12 @@
+.git
+.github
+**/bin
+**/obj
+**/node_modules
+**/dist
+**/.vite
+**/.vitest
+TestResults
+coverage
+.env
+*.zip

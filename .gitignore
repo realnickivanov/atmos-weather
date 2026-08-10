@@ -1,0 +1,39 @@
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+coverage/
+
+# Frontend
+**/node_modules/
+**/dist/
+**/.vite/
+**/.vitest/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+
+# IDE
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+**/playwright-report/
+**/test-results/

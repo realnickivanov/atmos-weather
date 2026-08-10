@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/backend/Atmos.Api/Atmos.Api.csproj" />
+    <Project Path="src/backend/Atmos.Application/Atmos.Application.csproj" />
+    <Project Path="src/backend/Atmos.Domain/Atmos.Domain.csproj" />
+    <Project Path="src/backend/Atmos.Infrastructure/Atmos.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/backend/Atmos.Api.IntegrationTests/Atmos.Api.IntegrationTests.csproj" />
+    <Project Path="tests/backend/Atmos.Application.UnitTests/Atmos.Application.UnitTests.csproj" />
+    <Project Path="tests/backend/Atmos.ArchitectureTests/Atmos.ArchitectureTests.csproj" />
+    <Project Path="tests/backend/Atmos.Infrastructure.Tests/Atmos.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>
