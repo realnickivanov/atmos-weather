@@ -1,4 +1,4 @@
-FROM node:24.19.0-alpine AS dependencies
+FROM node:26.12.1-alpine AS dependencies
 WORKDIR /app
 COPY src/frontend/atmos-web/package.json src/frontend/atmos-web/package-lock.json ./
 RUN npm ci --no-audit --no-fund
