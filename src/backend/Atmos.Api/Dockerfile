@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:10.0.302-noble AS restore
+FROM mcr.microsoft.com/dotnet/sdk:10.0.403-noble AS restore
 WORKDIR /source
 
 COPY global.json Directory.Build.props Directory.Packages.props ./
