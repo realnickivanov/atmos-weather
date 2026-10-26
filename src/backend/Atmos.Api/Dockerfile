@@ -16,7 +16,7 @@ RUN dotnet publish src/backend/Atmos.Api/Atmos.Api.csproj \
     --output /app/publish \
     /p:UseAppHost=false
 
-FROM mcr.microsoft.com/dotnet/aspnet:10.0.10-noble AS final
+FROM mcr.microsoft.com/dotnet/aspnet:10.0.14-noble AS final
 USER root
 RUN apt-get update \
     && apt-get install --yes --no-install-recommends curl \
